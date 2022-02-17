@@ -1,0 +1,10 @@
+body {margin: 0; padding: 0; min-height: 100vh;}
+.header-main {background-color: rgb(108, 134, 248);}
+main {background-color: rgb(241, 133, 232);}
+.footer-main {background-color: rgb(224, 224, 244);}
+
+body {display: flex; flex-direction: column;}
+
+main {
+    flex-grow: 1;
+}
