@@ -8,3 +8,6 @@ body {display: flex; flex-direction: column;}
 main {
     flex-grow: 1;
 }
+
+
+.Death{display: flex;}
