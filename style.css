@@ -1,3 +1,9 @@
+*{margin: 0;padding: 0;}
+@font-face {
+    font-family: 'Pacifico'; 
+    src: url(fonts/Pacifico-Regular.ttf); 
+   }
+
 body {margin: 0; padding: 0; min-height: 100vh;}
 .header-main {background-color: rgb(108, 134, 248);}
 main {background-color: rgb(241, 133, 232);}
@@ -9,5 +15,11 @@ main {
     flex-grow: 1;
 }
 
+.Death{display: flex; justify-content: space-evenly; margin-bottom: 35px;}
 
-.Death{display: flex;}
+.Death h3 {margin-bottom: 20px;}
+
+h2 {text-align: center; margin-bottom: 35px; font-size: 42px; font-family: 'Pacifico', cursive;}
+
+.info {background-color: aliceblue; padding: 45px;margin-bottom: 35px; margin-left: 140px; margin-right: 140px; 
+border: 1px solid #000;}
