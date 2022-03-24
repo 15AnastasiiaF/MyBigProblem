@@ -13,9 +13,15 @@ main {
     flex-grow: 1;
 }
 
+nav {display: flex; flex-direction: column; background-color: #918e8e; padding: 20px; width: 80px;}
+
 .Death{display: flex; justify-content: space-evenly; margin-bottom: 35px;}
 
-.Death h3 {margin-bottom: 20px;}
+.Death h3 {margin-bottom: 20px; color: black;}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+.Death div {flex-basis: 50px; font-family: 'Rubik', cursive; font-size: 17px; color: rgb(250, 235, 235);}
 
 h2 {text-align: center; margin-bottom: 35px; font-size: 42px; font-family: 'Pacifico', cursive;}
 
@@ -74,4 +80,10 @@ padding: 15px; font-size: 15px; color: white;}
 }
 
 .information {background-color: #43bdbd; border-radius: 15px; padding: 16px; font-size: 16px; color: white; 
-font-weight:800;margin: center; margin-left: 630px;}
+font-weight:800; position: relative; left: 45%;}
+
+footer {display: flex; justify-content: space-between; padding: 50px;}
+
+nav2 {display: flex; flex-direction: column;}
+
+.button {border-radius: 20px; padding: 9px; font-size: 15px; margin: center;}
