@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма заявки</title>
+</head>
+<body>
+    <form action="#" method="post" id="myform" enctype="multipart/form-data">
+       <label for="inp">Ваше имя</label>
+       <input type="text" name="firstname" pattern="Имя" id="name" placeholder="Ваше имя..."/>
+
+       <label for="lastname">Ваша фамилия</label>
+       <input type="text" name="lastname" pattern="Фамилия" id="lastname" placeholder="Ваша фамилия..."/>
+
+       <label for="password">Пароль</label>
+       <input type="password" name="password" pattern="Пароль" id="password" placeholder="Ваш пароль..."/>
+
+       <label for="birthday">День Рождения</label>
+       <input type="date" name="birthday" pattern="День Рождения" id="date"/>
+
+       <fieldset>
+           <legend>Ваше любимое животное</legend>
+           <label for="dog">Собака</label>
+           <input type="checkbox" name="dog" id="dog" checked/><br>
+
+           <label for="cat">Кот</label>
+           <input type="checkbox" name="cat" id="cat"/><br>
+
+           <label for="hamster">Хомяк</label>
+           <input type="checkbox" name="hamster" id="hamster"/><br>
+
+           <label for="turtle">Черепаха</label>
+           <input type="checkbox" name="turtle" id="turtle"/><br>
+
+           <label for="Fish">Рыбки</label>
+           <input type="checkbox" name="Fish" id="Fish"/><br>
+       </fieldset>
+
+       <fieldset>
+           <legend>Ваш пол</legend>
+
+           <label for="gender">Женский</label>
+           <input type="radio" name="gender" value="female" id="female"/>
+           
+           <label for="gender">Мужской</label>
+           <input type="radio" name="gender" value="male" id="male"/>
+       </fieldset>
+
+       <label for="file">Выберите файл</label>
+       <input type="file" name="file" id="file"/><br>
+
+       <label for="file">Любимый фрукт</label>
+       <select name="fruits">
+           <option value="banana">Банан</option>
+           <option value="apple">Яблоко</option>
+           <option value="strawberry" selected>Клубника</option>
+       </select><br>
+
+       <input type="submit" value="Отправить"/>
+    </form>
+</body>
+</html>

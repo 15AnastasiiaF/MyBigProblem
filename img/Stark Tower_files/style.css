@@ -24,7 +24,7 @@ h2 {
 nav {
   width: 45px;
 }
-ul {
+ ul {
   list-style: none; 
   margin: 0;
   padding: 0;
@@ -62,7 +62,6 @@ a {
 }
 .one ul {
   background: #ECDAD6;
-  border-radius: 35px;
 }
 .one ul a {
   color: #573831;
@@ -73,7 +72,6 @@ a {
 }
 .one ul li:hover .submenu {
   display: block;
-  border-radius: 10px;
 }  
 
 .Death{display: flex; justify-content: space-evenly; margin-bottom: 35px;}
