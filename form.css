@@ -1,0 +1,4 @@
+input[type="file"]{display: none;}
+
+.load {border: 1px solid rgb(228, 107, 107); padding: 6px 12px; border-radius: 30px; margin: 30px; 
+background-color: rgb(189, 130, 243);}
