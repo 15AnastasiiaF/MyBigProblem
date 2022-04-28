@@ -1,0 +1,16 @@
+*{margin: 0;padding: 0;}
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@1,500&display=swap');
+
+.logo {text-align: center; font-size: 50px; font-family: 'Libre Bodoni', cursive;}
+
+/* .logo{
+  font-size: 50px;
+  text-transform: uppercase;
+  background: linear-gradient(45deg, #1f57b1 33%, #1f8daf 44%, #eb85d5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #1f57b1;
+  display: table;
+  margin: 20px auto;
+} */
