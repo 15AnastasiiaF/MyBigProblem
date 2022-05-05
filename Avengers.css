@@ -50,3 +50,15 @@ font-family: 'Nunito', cursive; color: #ae5ecd;}
   margin-left: 58px;
   width: 92%;
 }
+
+.members h3 {color: #f04d89;  font-size: 26px; font-family: 'Nunito', cursive;}
+
+.members p {color: #EE6B9C; font-size: 24px; font-family: 'Nunito', cursive;}
+
+.members {text-align: center;}
+
+.sostav{display: flex; justify-content:space-between; margin-bottom: 35px;}
+
+.sostav h4 {color: #5EC4CD; font-size: 21px; font-family: 'Nunito', cursive;}
+
+.sostav {flex-basis: 50px; font-family: 'Rubik', cursive; font-size: 17px; color: rgb(250, 235, 235);}
