@@ -1,0 +1,52 @@
+*{margin: 0;padding: 0;}
+
+body {margin: 0; padding: 0; min-height: 100vh;}
+
+body {background-image: url(img/fon_for_Aven.jpg); display: flex; flex-direction: column;background-size: cover;
+background-position: 50% 50%;}
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@1,500&display=swap');
+
+.logo {text-align: center; font-size: 60px; font-family: 'Libre Bodoni', cursive; padding-bottom: 30px;} 
+
+.logo{
+  font-size: 60px;
+  background: linear-gradient(45deg, #a1185a 33%, #00FE81 44%, #1215a7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  color: #a1185a;
+  display: table;
+  margin: 20px auto;
+} 
+
+.Avengers{border-radius: 10px;}
+
+.container {text-align: center;}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+.info {text-align: center; padding-top: 50px; font-weight: bold; font-size: 21px; 
+font-family: 'Nunito', cursive; color: #5EC4CD;}
+
+.info {
+  height: 137px;
+  margin-left: 58px;
+  width: 92%;
+}
+
+.history {text-align: center; font-size: 21px; font-family: 'Nunito', cursive;}
+
+.Nick{border-radius: 10px;}
+
+.history h2 {color: #991b7e; padding-bottom: 30px; padding-top: 30px;}
+
+.history p {text-align: center; padding-top: 45px; font-weight: bold; font-size: 21px; 
+font-family: 'Nunito', cursive; color: #ae5ecd;}
+
+.first-child {margin-bottom: 5px;}
+
+.history p {
+  height: 130px;
+  margin-left: 58px;
+  width: 92%;
+}

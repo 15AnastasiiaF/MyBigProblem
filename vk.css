@@ -1,0 +1,9 @@
+*{margin: 0;padding: 0;}
+html, body {height: 100vh;}
+body{    
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+h1 {text-align: center;}
+body {background-image:  linear-gradient( rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2) ),
+url(img/vk.png);}
