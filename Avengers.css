@@ -3,7 +3,7 @@
 body {margin: 0; padding: 0; min-height: 100vh;}
 
 body {background-image: url(img/fon_for_Aven.jpg); display: flex; flex-direction: column;background-size: cover;
-background-position: 50% 50%;}
+background-position: 50% 50%;} 
 
 @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@1,500&display=swap');
 
@@ -51,14 +51,29 @@ font-family: 'Nunito', cursive; color: #ae5ecd;}
   width: 92%;
 }
 
-.members h3 {color: #f04d89;  font-size: 26px; font-family: 'Nunito', cursive;}
+h3 {color: #c71e70; text-align: center; font-size: 30px; font-family: 'Nunito', cursive;
+padding-top: 30px;}
 
-.members p {color: #EE6B9C; font-size: 24px; font-family: 'Nunito', cursive;}
+h4 {color: #c71e70; text-align: center; font-size: 27px; font-family: 'Nunito', cursive; 
+padding-bottom: 20px;}
 
-.members {text-align: center;}
+.members {display: flex; justify-content: space-evenly; margin-bottom: 35px;}
 
-.sostav{display: flex; justify-content:space-between; margin-bottom: 35px;}
+.members h5 {margin-bottom: 20px; color: #37DA7E; text-align: center; font-size: 24px; 
+font-family: 'Nunito', cursive;}
 
-.sostav h4 {color: #5EC4CD; font-size: 21px; font-family: 'Nunito', cursive;}
+.members h6 {margin-bottom: 20px; color: #37DA7E; text-align: center; font-size: 21px; 
+font-family: 'Nunito', cursive;}
 
-.sostav {flex-basis: 50px; font-family: 'Rubik', cursive; font-size: 17px; color: rgb(250, 235, 235);}
+.members div {flex-basis: 50px; font-family: 'Rubik', cursive; font-size: 17px; 
+color: #33CCCC; padding-bottom: 20px;}
+
+.members p {padding-top: 15px;}
+
+.image{border-radius: 10px;}
+
+.image{
+  object-fit: cover;
+  width: 245px;
+  height: 350px;
+}
