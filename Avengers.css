@@ -1,35 +1,34 @@
 *{margin: 0;padding: 0;}
 
-@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@1,500&display=swap');
-
 body {margin: 0; padding: 0; min-height: 100vh;}
 
-body {background-image: url(img/fon_for_Aven.jpg); display: flex; flex-direction: column; background-size: cover;
-background-position: 50% 50%;}
+body {background-image: url(img/fon_for_Aven.jpg); display: flex; flex-direction: column;background-size: cover;
+background-position: 50% 50%;} 
 
-.logo {text-align: center; font-size: 60px; font-family: 'Libre Bodoni', cursive; padding-bottom: 30px;}
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@1,500&display=swap');
+
+.logo {text-align: center; font-size: 60px; font-family: 'Libre Bodoni', cursive; padding-bottom: 30px;} 
 
 .logo{
   font-size: 60px;
-  /* text-transform: uppercase; */
   background: linear-gradient(45deg, #a1185a 33%, #00FE81 44%, #1215a7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; 
   color: #a1185a;
- display: table;
+  display: table;
   margin: 20px auto;
 } 
 
-.Avengers {border-radius: 10px;}
+.Avengers{border-radius: 10px;}
 
-.contanier {text-align: center;}
+.container {text-align: center;}
 
-@import url('https://.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
 
-.info {text-align: center; padding-top: 50px; font-weight: bold; font-size: 21px; font-family: 'Nunito', cursive;
-color: #5EC4CD;}
+.info {text-align: center; padding-top: 50px; font-weight: bold; font-size: 21px; 
+font-family: 'Nunito', cursive; color: #5EC4CD;}
 
-.info{
+.info {
   height: 137px;
   margin-left: 58px;
   width: 92%;
@@ -37,12 +36,12 @@ color: #5EC4CD;}
 
 .history {text-align: center; font-size: 21px; font-family: 'Nunito', cursive;}
 
-.Nick {border-radius: 10px;}
+.Nick{border-radius: 10px;}
 
 .history h2 {color: #991b7e; padding-bottom: 30px; padding-top: 30px;}
 
-.history p {text-align: center; padding-top: 45px; font-weight: bold; font-size: 21px; font-family: 'Nunito', cursive;
-color: #ae5ecd;}
+.history p {text-align: center; padding-top: 45px; font-weight: bold; font-size: 21px; 
+font-family: 'Nunito', cursive; color: #ae5ecd;}
 
 .first-child {margin-bottom: 5px;}
 
@@ -52,11 +51,29 @@ color: #ae5ecd;}
   width: 92%;
 }
 
+h3 {color: #c71e70; text-align: center; font-size: 30px; font-family: 'Nunito', cursive;
+padding-top: 30px;}
 
-h3 {color: #c71e70; text-align: center; font-size: 30px; font-family: 'Nunito', cursive;}
+h4 {color: #c71e70; text-align: center; font-size: 27px; font-family: 'Nunito', cursive; 
+padding-bottom: 20px;}
 
-.members h4 {color: #c71e70; text-align: center; font-size: 27px; font-family: 'Nunito', cursive;}
+.members {display: flex; justify-content: space-evenly; margin-bottom: 35px;}
 
-.members h5 {color: #37DA7E;  font-size: 24px; font-family: 'Nunito', cursive;}
+.members h5 {margin-bottom: 20px; color: #37DA7E; text-align: center; font-size: 24px; 
+font-family: 'Nunito', cursive;}
 
-.members div {flex-basis: 50px; font-family: 'Rubik', cursive; font-size: 17px; color: rgb(250, 235, 235);}
+.members h6 {margin-bottom: 20px; color: #37DA7E; text-align: center; font-size: 21px; 
+font-family: 'Nunito', cursive;}
+
+.members div {flex-basis: 50px; font-family: 'Rubik', cursive; font-size: 17px; 
+color: #33CCCC; padding-bottom: 20px;}
+
+.members p {padding-top: 15px;}
+
+.image{border-radius: 10px;}
+
+.image{
+  object-fit: cover;
+  width: 245px;
+  height: 350px;
+}
