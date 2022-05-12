@@ -1,0 +1,37 @@
+body {background:  #1f1f1f; color: #fff;}
+
+.logo {text-align: center; font-size: 40px; font-family: 'Libre Bodoni', cursive; padding-bottom: 30px;}
+
+.container {text-align: justify;}
+
+.container div {display: inline-block; vertical-align: top;}
+
+.container::after {
+    content: "";
+    width: 100%;
+    display: inline-block;
+}
+
+.photo {width: 400px; height: 250px; padding: 15px;}
+
+.photo1 {width: 470px; height: 600px; padding: 15px;}
+
+.photo2 {width: 400px; height: 500px; padding: 15px;}
+
+.photo3 {width: 400px; height: 400px; padding: 15px; margin-bottom: 5px;} 
+
+.photo4 {width: 400px; height: 250px; padding: 15px; margin-bottom: 120px;}
+
+.photo5 {width: 430px; height: 250px; padding: 10px; margin-bottom: 5px;}
+
+.photo6 {width: 400px; height: 400px; padding: 15px; margin-bottom: 50px; margin-left: 15px;}
+
+.photo7 {width: 400px; height: 500px; padding: 15px; margin-left: 10px;}
+
+.photo8 {width: 450px; height: 350px; padding: 15px;}
+
+.photo10 {width: 400px; height: 250px; margin-bottom: 120px; padding: 15px;}
+
+.photo9 {width: 400px; height: 400px;}
+
+.photo11 {width: 400px; height: 270px; padding: 20px; margin-bottom: 75px;}
