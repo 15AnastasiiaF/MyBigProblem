@@ -7,10 +7,10 @@
 body {margin: 0; padding: 0; min-height: 100vh;}
 
 body {background-image: url(img/fon.jpg); display: flex; flex-direction: column;background-size: cover;
-    background-position: 50% 50%;}
+background-position: 50% 50%;}
 
 main {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
 nav {display: flex; flex-direction: column; padding: 20px; width: 25px; }
@@ -89,7 +89,8 @@ h2 {text-align: center; margin-bottom: 35px; font-size: 42px; font-family: 'Paci
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
 
-.info {text-align: center; padding: 65px;font-weight: bold; font-size: 19px; font-family: 'Nunito', cursive;}
+.info {text-align: center; padding: 65px;font-weight: bold; font-size: 19px; 
+font-family: 'Nunito', cursive;}
 
 .info{
   font-size: 20px;

@@ -1,0 +1,30 @@
+*{margin: 0;padding: 0;}
+
+body {margin: 0; padding: 0; min-height: 100vh;}
+
+body {background-image: url(img/Stark_Indastries.fon); display: flex; flex-direction: column;background-size: cover;
+background-position: 50% 50%;} 
+
+/* @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+
+.logo {text-align: center; color:rgb(0, 255, 255);  font-size: 90px; font-family: 'Heebo', sans-serif, 
+cursive; padding-top: 40px; padding-bottom: 80px} */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+.logo {text-align: center; color:rgb(0, 255, 255);  font-size: 90px; font-family: 'Open Sans' 
+cursive; padding-top: 40px; padding-bottom: 100px; font-weight:400;}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+.info {text-align: center; padding-top: 50px; font-weight: bold; font-size: 21px; 
+font-family: 'Nunito', cursive; color: #5EC4CD;}
+
+.container {text-align: center;}
+
+.image{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}
