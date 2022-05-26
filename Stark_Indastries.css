@@ -51,4 +51,16 @@ font-family: 'Nunito', cursive; color:#86A8F7; /*#5C8BF7*/}
 
 .Expo {width: 600px; height: 400px;}
 
+.informati {text-align: center; padding-top: 20px; font-weight: bold; font-size: 21px; 
+font-family: 'Nunito', cursive; color: #ff8686;}
+
+.informati p {
+    height: 170px;
+    margin-left: 58px;
+    width: 92%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+} 
+
 .IronMan {width: 600px; height: 350px;}
+

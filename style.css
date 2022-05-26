@@ -36,7 +36,7 @@ ul {
 .topmenu > li:last-child {
   margin-right: 0;
 }
-a {
+.topmenu a {
   display: block;
   padding: 10px 15px;
   text-decoration: none;
@@ -78,11 +78,13 @@ a {
 
 .Death{display: flex; justify-content: space-evenly; margin-bottom: 35px;}
 
-.Death h3 {margin-bottom: 20px; color: black; text-align: center;}
+.Death h3 {margin-bottom: 20px; color: black; text-align: center; font-family: 'Nunito', cursive;}
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
 
 .Death div {flex-basis: 50px; font-family: 'Rubik', cursive; font-size: 17px; color: rgb(250, 235, 235);}
+
+.Death p{flex-basis: 50px; font-family: 'Nunito', cursive; font-size: 17px; color: rgb(250, 235, 235);}
 
 h2 {text-align: center; margin-bottom: 35px; font-size: 42px; font-family: 'Pacifico', cursive;}
 
@@ -125,8 +127,8 @@ h2 {text-align: center; margin-bottom: 35px; font-size: 42px; font-family: 'Paci
   margin: 20px auto;
   }
 
-.contact {position: absolute; right: 10px; top: 10px;background-color: #838383; border-radius: 25px; 
-padding: 15px; font-size: 15px; color: white; cursor: pointer;}
+.contact {position: absolute; right: 10px; top: 10px; background-color: #838383; border-radius: 25px; 
+padding: 15px; font-size: 15px; color: white; cursor: pointer; }
 
 .text {text-align: center;font-weight: bold; font-size: 19px; font-family: 'Nunito', cursive;}
 
@@ -140,15 +142,24 @@ padding: 15px; font-size: 15px; color: white; cursor: pointer;}
   margin: 10px auto;
 }
 
-.information {background-color: #43bdbd; border-radius: 15px; padding: 16px; font-size: 16px; color: white; 
-font-weight:800; position: relative; left: 45%; cursor: pointer;}
+/* .information {background-color: #43bdbd; border-radius: 15px; padding: 16px; font-size: 16px; color: white; 
+font-weight:800; position: relative; left: 45%; cursor: pointer;} */
+
+.four {width: 180px; height: 20px; background-color: #43bdbd; border-radius: 15px; padding: 16px; text-align: center;
+font-size: 16px; color: white; position: relative; left: 43%; cursor: pointer; }
+
+.four a {
+  display: block;
+  text-decoration: none;
+  outline: none;
+  font-weight:800;
+  font-size: 20px;
+  color: white;
+}
 
 footer {display: flex; justify-content: space-between; padding: 50px; }
 
 nav2 {display: flex; flex-direction: column;}
-
-/*.button {border-radius: 20px; padding: 9px; font-size: 15px; margin: center; position: relative; left: 50%;
-transform: translate(-50%, 0);}*/
 
 textarea{
   font-size: 25px;
@@ -176,6 +187,24 @@ textarea{
   padding-left: 0px;
   padding-top: 25px;
   display: inline-block;
+}
+
+.two a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  outline: none;
+  font-family: 'Lora', serif;
+  transition: .5s linear;
+}
+
+.three a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  outline: none;
+  font-family: 'Lora', serif;
+  transition: .5s linear;
 }
 
 .p1 {font-size: 22px; font-family: 'Nunito', cursive; text-align: start;}
